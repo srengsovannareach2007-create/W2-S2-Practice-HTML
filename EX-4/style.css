@@ -1,0 +1,113 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  margin: 60px auto;              /*move with browser*/
+  padding: 10px;
+  border: 10px solid #e0e0e0;
+  border-radius: 24px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.15);
+}
+.banner {
+  height: 110px;
+  border-radius: 16px;
+  position: relative;         /*to keep buttom follow*/
+}
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /*center and crop*/
+  display: block;
+  border-radius: 16px;
+}
+.follow-btn {
+  position: absolute;        /*inside relative*/
+  top: 12px;
+  right: 12px;
+  background-color: #ffffff;
+  color: #222222;
+  border: 1px solid #dddddd;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.follow-btn:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  margin-top: -45px;            /* Push Up */ 
+  margin-left: 15px;
+  position: relative;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+}
+
+.info h2 {
+  font-size: 20px;
+  color: #222222;
+  margin: 10px 0 6px 0;
+}
+
+.info p {
+  font-size: 13px;
+  color: #777777;
+  margin: 0;
+}
+
+.stats {
+  display: flex;             
+  text-align: center;
+  border-top: 1px solid #eeeeee;
+}
+.stat-item {
+  width: 33.33%; 
+  padding: 12px;
+}
+.stat-item strong {
+  display: block;
+  font-size: 15px;
+  color: #222222;
+}
+.stat-item span {
+  font-size: 12px;
+  color: #888888;              
+}
+.middle-border {                
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+}
+
+.socials {
+  display: flex;
+  text-align: center;
+  border-top: 1px solid #eeeeee;
+}
+.social-link {
+  display: block;         
+  width: 33.33%;
+  padding: 12px 0;
+  text-decoration: none;   /* Removes the blue underline */
+  color: #555555;        
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.social-link:hover {
+  background-color: #f3f4f6; 
+  color: #111111;     
+}

@@ -1,0 +1,35 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+div {
+    background-color: white;
+    padding: 20px;
+    margin: 30px 100px 30px 100px;
+    border-radius: 10px;
+}
+
+button:hover {
+    border-radius: 30px;
+    padding: 10px;   
+    cursor: pointer;
+    transition:ease-in-out 0.5s;
+}
+
+button{
+    border-radius:30px;
+    border: none;
+}
+
+.b1 {
+    background-color: #008080;
+    color: white;
+}
+.b2{
+    background-color: #ffa500;
+}
+.b3{
+    background-color: #800080;
+    color: white;
+}
